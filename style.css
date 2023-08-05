@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: rgb(105, 9, 105);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    background: rgb(245, 209, 235);
+    border-radius: 5px;
+    height: 75vh;
+    font-weight: 700;
+}
+
+.btn {
+    display: flex;
+    margin: 20px;
+    height: 4vh;
+    width: 200px;
+}
+
+.btn-submit {
+    margin-right: 5px;
+    background-color: rgb(138, 80, 138); 
+    color: white;
+}
+
+.btn-reset {
+    background-color: rgb(138, 80, 138); 
+    color: white;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-radius: 1px solid silver;
+}
+
+.container form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
